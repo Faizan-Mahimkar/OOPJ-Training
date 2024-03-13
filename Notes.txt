@@ -1,0 +1,49 @@
+Variable is the name given to a memory location/Storage area.
+
+Java created in 1995 by James Gosling.
+
+C first name was Structured Oriented Progrmming language.
+
+C++ first name was C with Classes
+
+Calling OS functions in java is called AWT
+
+Java was First called Oak
+
+if you want to work on ai,ml systems then python is better .... if you want to work on enterprise then java is better.
+
+java converts variable to hash code
+
+OOPS Features in JAVA :- Class,object,encapsulation,polymorphism,inheritance,abstraction,exception handling,message passing
+
+Class:- Logical representation of things.
+Object:- Physical representation of things.
+Abstraction:- Hiding the internal details from the user and showing important details.
+Encapsulation:- 
+Inheritance:- 
+Polymorphism:- A person in class behave likea student,person in bus behave like passenger,etc. person is polymorphism
+exception handling:- handling runtime errors is known as exception handling
+
+Datatype tells what type of value is held by a variable
+
+8 primitive data types in Java.
+
+JAVA support 16+ international languages and 1 Byte is not sufficient to store all characters therefore java uses 2 byte.
+
+JVM is responsible to create classes in JAVA.
+
+Typecasting :- 1) Implicit: Smaller data type to larger data type
+			   2) Explicit: Larger data type to smaller data type
+
+Scanner class in JAVA:
+
+Main function provides a callable environment to call userdefined and predefined methods.
+
+16/01/2023
+
+For loop is used when range is given
+While loop is used when range is not given
+Do While loop is used for menu driven program
+
+
+			   
