@@ -45,5 +45,9 @@ For loop is used when range is given
 While loop is used when range is not given
 Do While loop is used for menu driven program
 
+13/03/2024
 
+Multithreading: 
 			   
+
+Big O notation is the language and metric we use to describe the efficiency of algorithms.
