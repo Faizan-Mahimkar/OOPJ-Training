@@ -1,5 +1,4 @@
 import java.util.*;
-
 class ShoppingCartApplication {
     ArrayList<String> itemNameList = new ArrayList<>();
     ArrayList<Double> priceList = new ArrayList<>();
@@ -37,6 +36,14 @@ class ShoppingCartApplication {
             System.out.println("Invalid item number.");
         }
     }
+    public void Order(int index){
+        if(itemNameList.isEmpty()){
+            System.out.println("No items in cart");
+        }
+        else{
+            System.out.println("Order placed successfully.");    
+        }
+    }
     public void orderMenu() {
         System.out.println("\n1. Add items");
         System.out.println("2. Show items");
@@ -50,7 +57,6 @@ class ShoppingCartApplication {
         ShoppingCartApplication cart = new ShoppingCartApplication();
         Scanner sc = new Scanner(System.in);
         int choice;
-
         do {
             cart.orderMenu();
             choice = sc.nextInt();
@@ -84,7 +90,11 @@ class ShoppingCartApplication {
                     cart.updateItem(updateItemNo, newItemName, newPrice);
                     break;
                 case 5:
-                    System.out.println("Order placed successfully.");
+                    cart.showItems();
+                    System.out.println("What do you want to Buy? ");
+                    int order_num = sc.nextInt();
+                    cart.Order(order_num);
+                    System.out.println("Order placed successfully.");                    
                     break;
                 case 6:
                     System.out.println("Exiting...");
@@ -93,7 +103,6 @@ class ShoppingCartApplication {
                     System.out.println("Invalid choice. Please try again.");
             }
         } while (choice != 6);
-
         sc.close();
     }
 }
