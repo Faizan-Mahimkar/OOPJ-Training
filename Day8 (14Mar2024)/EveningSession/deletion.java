@@ -1,6 +1,7 @@
 import java.util.*;
 
 class deletion {
+    @SuppressWarnings("resource")
     public static void main(String[] args)
     {
         int arr[]=new int[100];
@@ -33,5 +34,6 @@ class deletion {
         {
             System.out.println(arr[i]);
         }
+        sc.close();
     }
 }

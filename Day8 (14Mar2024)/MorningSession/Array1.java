@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class Array1 {
+    @SuppressWarnings("resource")
     public static void main(String[] args)
     {
         int arr[]=new int[100];
